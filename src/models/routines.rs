@@ -67,7 +67,6 @@ pub struct RoutineExercise {
 }
 
 /// A routine
-#[serde_with::skip_serializing_none]
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Routine {
     /// The routine ID
